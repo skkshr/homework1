@@ -1,0 +1,25 @@
+<h1>Welcome to Sunkunkun Homepage</h1>
+<div id="showtime"></div>
+<div >       &nbsp</div>
+<div >       &nbsp</div>
+<div >       &nbsp</div>
+<div ><a href="http://www.baidu.com/">链接到百度</a></div>
+<div ><%= link_to("链接到其他页面", "/home/content") %></div>
+
+
+<script type="text/javascript">
+ function timechange() {
+  var showtime = document.getElementById("showtime");
+  setInterval(function() {
+   var time = new Date();
+   // 程序计时的月从0开始取值后+1
+   var m = time.getMonth() + 1;
+   var t = time.getFullYear() + "-" + m + "-"
+     + time.getDate() + " " + time.getHours() + ":"
+     + time.getMinutes() + ":" + time.getSeconds();
+   showtime.innerHTML = "Time:     "+t;
+  }, 100);
+ };
+ timechange();
+</script>
+
