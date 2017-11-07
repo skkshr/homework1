@@ -19,6 +19,7 @@
 <img src="/raw/show.png" width="600"> 
 
 点击Edit链接转到Edit页面，如图
+
 <img src="/raw/edit.png" width="600"> 
 
 在http://localhost:3000/students 页面可以点击destroy链接，弹出确认按钮，如图
