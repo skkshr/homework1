@@ -4,7 +4,7 @@
 ### 第一部分
 启动rails后，访问http://localhost:3000/ 进入首页
 <img src="/raw/index.png" width="600">  
-首页中动态显示时间，两个链接。第一个链接到百度，第二个链接到http://localhost:3000/home/content
+首页中动态显示时间，两个链接。第一个链接到百度，第二个链接到http://localhost:3000/home/content, 点击返回链接可返回首页。
 <img src="/raw/contentpage.png" width="600">  
 
 ### 第二部分
